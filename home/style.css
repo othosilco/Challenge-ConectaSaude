@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+h1 {
+    font-size: 2em;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal; 
+    margin: 0;
+}
+
+h3 {
+    font-variant-emoji: 1.25em;
+    font-weight: 300;
+}
+
+p {
+    font-size: 1em;
+    margin: 0;
+    color: #313131;
+}
+
+.fa-regular {
+    line-height: normal;
+    font-size: 2em;
+    color: #6f6f6f;
+
+}
+
+.main{
+    display: flex;
+}
+
+.menu-lateral {
+    width: 248px;
+    height: 100vh;
+    padding: 24px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.10);
+    z-index: 1;
+}
+
+.content {
+    width: 100%;
+    height: auto;
+    background-color: #FAFAFA;
+    padding: 24px;
+    /* box-sizing: border-box; */
+}
+
+.box-principal {
+    border-radius: 10px;
+    background-image: url(./assets/fundo-sus.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 24px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: flex-end;
+    box-sizing: border-box;
+    margin-bottom: 32px;
+}
+
+.box-principal h1 {
+    color:#ffffff
+}
+
+.box-principal p {
+    color:#ffffff
+}
+
+.box-atalho-geral {
+    display: flex;
+    gap: 24px;
+}
+
+.box-atalho {
+    display: flex;
+    box-sizing: border-box;
+    padding: 24px;
+    border-radius: 10px;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    width: 100%;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.10);
+    gap: 16px;
+
+}
+
+.list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* .list li {
+    padding: 12px;
+} */
+
+.list-item {
+    padding: 16px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.list-item a {
+    text-decoration: none;
+    color: #313131;
+}
+
+.list-item a:hover {
+    color: #2B44FF;
+}
+
+.list-item i {
+    color: #6f6f6f
+}

@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+body{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(/login.png);
+    background-repeat: no-repeat;
+    background-position: -110px;
+    background-size: 550px;
+    text-align: center;
+
+}
+.infos{
+    display: grid;
+    position: relative;
+    margin-left: 480px;
+    margin-top: 30px;
+    text-align: center;
+}
+.infos .boas{
+    color: black; 
+    font-size: 16px; 
+    font-family: "Poppins"; 
+    font-weight: 500; 
+    word-wrap: break-word;
+    margin-left: -410px;
+}
+.infos .dados{
+    position: relative;
+   
+}
+.infos .dados .btn{
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    background-color: #2b44ff;
+    width: 442px;
+    height: 44px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.infos .dados .btn-g{
+    font-family: 'Poppins', sans-serif;
+    color: #2b44ff;
+    background-color: #fff;
+    width: 442px;
+    height: 44px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 16px;
+    border: #2b44ff 1px solid;
+    cursor: pointer;
+}
+.infos .dados .btn :hover{
+    transition: 2s;
+    letter-spacing: 10px;
+}
+span{
+    color: #384048;
+    font-size: 16px;
+    margin-left: 20px;
+}
+label{
+    color: #6f6f6f;
+    margin-left: -387px;
+    font-size: 15px;
+}
+s{
+    color: red;
+    text-decoration: none;
+}
+input{
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    width: 435px;
+    height: 48px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px #6b737a solid;
+    color: #384048;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    word-wrap: break-word;
+}
+input ::placeholder{
+    color: #384048;
+}
+.container-d{
+    width: 50%;
+}
+.ctt{
+    margin-left: 80px;
+}
+.ctt h3{
+    font-size: 15px;
+    margin-top: 70px;
+    font-weight: 0;
+}
+.ctt p{
+    font-size: 13px;
+}
