@@ -5,11 +5,12 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-image: url(/login.png);
+    background-image: url(/login/login.png);
     background-repeat: no-repeat;
     background-position: -110px;
-    background-size: 550px;
+    background-size:auto;
     text-align: center;
+    height: 100vh;
 
 }
 .infos{
